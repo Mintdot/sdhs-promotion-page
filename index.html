@@ -2,9 +2,122 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>서울디지텍고등학교</title>
+    <style>
+        *{margin:0; padding:0; box-sizing: border-box; background-color:#eeeeee; font-family:sans-serif;}
+        /*header*/
+        header{
+            width:1400px;
+            height:250px;
+            margin: 0 auto;
+            }
+        #logo{
+            margin-top:50px;
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            }
+        /*section*/
+        section{
+            width:1400px;
+            height:730px;
+            margin:0 auto;}
+        #header_text{
+            color:#0080ca;
+            font-size:24px;
+            text-align: center;}
+        #btn_wrap{
+            width:1000px;
+            height:180px;
+            margin-left:200px;
+            margin-top:20px;
+        }
+        #game{
+            width:150px;
+            height:150px;
+            margin-top:10px;
+            margin-left:80px;
+            }
+        #vr{
+            width:150px;
+            height:150px;
+            margin-top:10px;
+            margin-left:80px;
+        }
+        #space{
+            width:150px;
+            height:150px;
+            margin-top:10px;
+            margin-left:80px;
+        }
+        #iot{width:150px;
+            height:150px;
+            margin-top:10px;
+            margin-left:80px;
+        }
+        #btntext_wrap{
+            width:1000px;
+            height:50px;
+            margin:0 auto;
+        }
+        #game_text{
+            color:#ee155a;
+            font-size:24px;
+            float: left;
+            margin-left:80px;}
+        #vr_text{
+            color:#9c258d;
+            float: left;
+            font-size:24px;
+            margin-left:100px;
+        }
+        #space_text{
+            color:#f8aa3a;
+            float: left;
+            font-size:24px;
+            margin-left:100px;}
+        #iot_text{
+            color:#01abb8;
+            float: left;
+            font-size:24px;
+            margin-left:100px;
+        }
+        #video{
+            margin-left:200px;
+        }
+
+        /*footer*/
+        footer{}
+        #ft_img{
+            display:block;
+            margin-left:auto;
+            margin-right:auto;}
+    </style>
 </head>
 <body>
+
+        <header>
+            <img src="img/logo.png" alt="" id="logo">
+        </header>
+        <section>
+            <div id="header_text">[ 학과를 선택해주세요 ]</div>
+            <div id="btn_wrap">
+                <img src="img/btn/game_btn.png" alt="" id="game">
+                <img src="img/btn/vr_btn.png" alt="" id="vr">
+                <img src="img/btn/space_btn.png" alt="" id="space">
+                <img src="img/btn/iot_btn.png" alt="" id="iot">
+            </div>
+            <div id="btntext_wrap">
+                <div id="game_text">게임콘텐츠과</div>
+                <div id="vr_text">VR콘텐츠과</div>
+                <div id="space_text">공간정보학과</div>
+                <div id="iot_text">사물인터넷과</div>
+            </div>
+            <iframe width="1000" height="400" src="https://www.youtube.com/embed/Q_oHyNVQUcc" frameborder="0" allowfullscreen id="video"></iframe>
+        </section>
+        <footer>
+            <img src="img/footer.png" alt="" id="ft_img">
+        </footer>
 
 </body>
 </html>
