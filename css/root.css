@@ -1,0 +1,18 @@
+*{margin:0; padding:0; font-family:sans-serif; box-sizing: border-box;}
+
+/*header*/
+header{width:1000px; height:300px; margin: 0 auto;}
+.root_logo{width:300px; height:300px; display:block; margin-left:auto; margin-right:auto; margin-top:50px;}
+.root_btn{position: absolute; width:150px; height:150px; margin-left:1280px; margin-top:-40px;}
+#root_back{color: #2bb673; position: absolute; margin-left:1330px; margin-top:120px;}
+
+/*section*/
+section{width:1600px; height:350px; margin: 0 auto;}
+.root_text{margin-top:50px; color: #2bb673;}
+#syshk_text{position: absolute; margin-top:-50px; margin-left:100px; color: #2bb673; font-size:32px;}
+#webhk_text {position: absolute; margin-left: 1150px; margin-top: -50px; color: #2bb673; font-size:32px;}
+
+/*footer*/
+footer{width:1600px; height:300px; margin: 0 auto;}
+#kakao_wrap{width:1600px; height:300px;}
+.kakao_root{width:400px; height:300px; margin-left:80px;}
