@@ -10,7 +10,7 @@ strong{background-color: white;}
 .second_img{width:1100px; height:1050px; position:relative;}
 
 #space_contents_wrap{width:750px; height:1050px; list-style: none; margin-left:295px; margin-top:-1055px; position:relative; font-size:13px; background-color: white}
-.first_contents_wrap{background-color: white; position: absolute; margin-top:60px;}
+.first_contents_wrap{background-color: white; position: absolute; margin-top:60px; }
 .second_contents_wrap{background-color: white; position: absolute; margin-top:200px;}
 .third_contents_wrap{background-color: white; position: absolute; margin-top:400px;}
 .four_contents_wrap{background-color: white; position: absolute; margin-top:550px;}
