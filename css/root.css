@@ -7,12 +7,13 @@ header{width:1000px; height:300px; margin: 0 auto;}
 #root_back{color: #2bb673; position: absolute; margin-left:1330px; margin-top:120px;}
 
 /*section*/
-section{width:1600px; height:350px; margin: 0 auto;}
+section{width:1600px; height:650px; margin: 0 auto;}
 .root_text{margin-top:50px; color: #2bb673;}
 #syshk_text{position: absolute; margin-top:-50px; margin-left:100px; color: #2bb673; font-size:32px;}
 #webhk_text {position: absolute; margin-left: 1150px; margin-top: -50px; color: #2bb673; font-size:32px;}
+#kakao_wrap{width:1600px; height:300px; margin-top:20px;}
+.kakao_root{width:400px; height:300px; margin-left:80px;}
 
 /*footer*/
-footer{width:1600px; height:300px; margin: 0 auto;}
-#kakao_wrap{width:1600px; height:300px;}
-.kakao_root{width:400px; height:300px; margin-left:80px;}
+footer{margin: 0 auto; width:500px; height:50px; margin-top:50px;}
+.root_footer_logo{margin: 0 auto; display:block;}
