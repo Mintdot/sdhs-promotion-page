@@ -1,57 +1,57 @@
-*{margin: 0; padding:0; box-sizing: border-box; font-family:sans-serif;}
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;}
 strong{background-color: white;}
 
 /*first*/
-#first_space_wrap{width:800px; margin-top:20px;}
-.first_img{width:800px; height:1050px;}
+#first_space_wrap{width: 800px; margin-top: 20px;}
+.first_img{width: 800px; height: 1050px;}
 
 /*second*/
-#second_space_wrap{width:1100px; margin-left:800px; margin-top:-1054px;}
-.second_img{width:1100px; height:1050px; position:relative;}
+#second_space_wrap{width: 1100px; margin-left: 800px; margin-top: -1054px;}
+.second_img{width: 1100px; height: 1050px; position: relative;}
 
-#space_contents_wrap{width:750px; height:1050px; list-style: none; margin-left:295px; margin-top:-1055px; position:relative; font-size:13px; background-color: white}
-.first_contents_wrap{background-color: white; position: absolute; margin-top:60px; }
-.second_contents_wrap{background-color: white; position: absolute; margin-top:200px;}
-.third_contents_wrap{background-color: white; position: absolute; margin-top:400px;}
-.four_contents_wrap{background-color: white; position: absolute; margin-top:550px;}
-.last_contents_wrap{background-color: white; position: absolute; margin-top:700px;}
+#space_contents_wrap{width: 750px; height: 1050px; list-style: none; margin-left: 295px; margin-top: -1055px; position: relative; font-size: 13px; background-color: white}
+.first_contents_wrap{background-color: white; position: absolute; margin-top: 60px; }
+.second_contents_wrap{background-color: white; position: absolute; margin-top: 200px;}
+.third_contents_wrap{background-color: white; position: absolute; margin-top: 400px;}
+.four_contents_wrap{background-color: white; position: absolute; margin-top: 550px;}
+.last_contents_wrap{background-color: white; position: absolute; margin-top: 700px;}
 
-.title{background-color: white; margin-left:100px;}
-.title-span{margin-left:28px;}
+.title{background-color: white; margin-left: 100px;}
+.title-span{margin-left: 28px;}
 
-.first_contents_wrap > .title:nth-child(1) {margin-left:40px;}
+.first_contents_wrap > .title:nth-child(1) {margin-left: 40px;}
 
-.second_contents_wrap > .title:nth-child(1) {margin-left:40px; color:#01abb8;}
+.second_contents_wrap > .title:nth-child(1) {margin-left: 40px; color: #01abb8;}
 
-.third_contents_wrap > .title:nth-child(1) {margin-left:40px; color:#01abb8;}
+.third_contents_wrap > .title:nth-child(1) {margin-left: 40px; color: #01abb8;}
 
-.four_contents_wrap > .title:nth-child(1) {margin-left:45px; color:#01abb8;}
+.four_contents_wrap > .title:nth-child(1) {margin-left: 45px; color: #01abb8;}
 
-.last_contents_wrap > .title:nth-child(1) {margin-left:30px;}
+.last_contents_wrap > .title:nth-child(1) {margin-left: 30px;}
 
-.contents_wrap{margin-left:140px; margin-top:-20px; background-color: white;}
+.contents_wrap{margin-left: 140px; margin-top: -20px; background-color: white;}
 
-.second_contents_wrap > .contents_wrap{margin-top:-35px;}
+.second_contents_wrap > .contents_wrap{margin-top: -35px;}
 
-.third_contents_wrap >.contents_wrap{margin-top:-35px;}
-.four_contents_wrap > .contents_wrap{margin-top:-37px;}
+.third_contents_wrap >.contents_wrap{margin-top: -35px;}
+.four_contents_wrap > .contents_wrap{margin-top: -37px;}
 
 .contents{background-color: white;}
 
 
-.second_contents_wrap > .title{margin-top:100px;}
+.second_contents_wrap > .title{margin-top: 100px;}
 
-#space_btn_wrap{width:700px; height:200px; position: absolute; margin-left:300px; margin-top:-250px;}
-.space_btn{width:150px; height:150px; margin-left:150px;}
-.space_text:nth-child(1){margin-left:175px; margin-top:20px; position: absolute; color: #488bed; font-size:18px;}
-.space_text:nth-child(2){margin-left:475px; margin-top:20px; position: absolute; color: #488bed; font-size:18px;}
+#space_btn_wrap{width: 700px; height: 200px; position: absolute; margin-left: 300px; margin-top: -250px;}
+.space_btn{width: 150px; height: 150px; margin-left: 150px;}
+.space_text:nth-child(1){margin-left: 175px; margin-top: 20px; position: absolute; color: #488bed; font-size: 18px;}
+.space_text:nth-child(2){margin-left: 475px; margin-top: 20px; position: absolute; color: #488bed; font-size: 18px;}
 
-.space_contents_wall{width:10px; height:100px; border-radius:40px; background-color: #eeeeee;z-index:999; position: absolute; margin-left:110px;}
-.space_contents_wall:nth-child(1){width:10px; height:90px; border-radius:40px;  z-index:999; position: absolute;  margin-top:60px;}
-.space_contents_wall:nth-child(2){width:10px; height:100px; border-radius:40px; background-color: #01abb8; z-index:999; position: absolute; margin-top:200px;}
-.space_contents_wall:nth-child(3){width:10px; height:100px; border-radius:40px; background-color: #01abb8; z-index:999; position: absolute; margin-top:400px;}
-.space_contents_wall:nth-child(4){width:10px; height:100px; border-radius:40px; background-color: #01abb8; z-index:999; position: absolute; margin-top:550px;}
-.space_contents_wall:nth-child(5){width:10px; height:20px; border-radius:40px; z-index:999; position: absolute; margin-top:700px;}
+.space_contents_wall{width: 10px; height: 100px; border-radius: 40px; background-color: #eeeeee; z-index: 999; position: absolute; margin-left: 110px;}
+.space_contents_wall:nth-child(1){width: 10px; height: 90px; border-radius: 40px;  z-index: 999; position: absolute;  margin-top: 60px;}
+.space_contents_wall:nth-child(2){width: 10px; height: 100px; border-radius: 40px; background-color: #01abb8; z-index: 999; position: absolute; margin-top: 200px;}
+.space_contents_wall:nth-child(3){width: 10px; height: 100px; border-radius: 40px; background-color: #01abb8; z-index: 999; position: absolute; margin-top: 400px;}
+.space_contents_wall:nth-child(4){width: 10px; height: 100px; border-radius: 40px; background-color: #01abb8; z-index: 999; position: absolute; margin-top: 550px;}
+.space_contents_wall:nth-child(5){width: 10px; height: 20px; border-radius: 40px; z-index: 999; position: absolute; margin-top: 700px;}
 
 /*footer*/
-#footer_logo{position: absolute; margin-top:-50px; margin-left:700px;}
+#footer_logo{position: absolute; margin-top: -50px; margin-left: 700px;}
