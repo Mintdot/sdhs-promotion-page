@@ -1,1 +1,9 @@
 *{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;}
+
+#iot_wrap{}
+
+#iot_btn_wrap{margin-top:200px;}
+.iot_btn{margin-left:50px;}
+.iot_main_text{color: #0080ca; font-size:42px; margin-left:160px;}
+.iot_mod_text{color: #c63863; font-size:42px; margin-left:830px; margin-top:-50px;}
+.iot_root_text{color: #2bb673; font-size:42px; margin-left:1400px; margin-top:-60px; }
