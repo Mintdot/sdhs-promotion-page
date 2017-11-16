@@ -2,18 +2,18 @@
 a{text-decoration: none;}
 
 /*header*/
-header{width: 100%; height: 200px;}
+header{width: 100%; height: 150px;}
 #mod_back{float: right; margin: 10px 20px 0px 0px; }
 #mod_back_text{color: #01abb8; text-align: center; margin-top: 10px;}
-.iot_icon{width: 150px; height: 150px;}
+.iot_icon{width: 100px; height: 100px;}
 
 /*section*/
-section{width: 1300px; height: 750px; margin: 0 auto;}
+section{width: 1300px; height: 700px; margin: 0 auto;}
 .mod_logo{width: 400px;}
 #mod_text_wrap{height: 322px; margin-top: -320px; margin-left: 500px;}
 .mod_text{margin-top: 40px; font-size: 32px; color: #c63863;}
 
-#mod_pf{margin-top: 50px;}
+#mod_pf{}
 .mod_pf_text{font-size: 32px; text-align: center; color: #c63863;}
 #mod_canvas{display: inline-block;}
 #mod_sort{display: inline-block; margin-left: 100px;}
