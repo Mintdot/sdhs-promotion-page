@@ -1,15 +1,10 @@
 *{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;}
 strong{background-color: white;}
 
-/*first*/
-#first_space_wrap{width: 800px; margin-top: 20px;}
-.first_img{width: 800px; height: 1050px;}
+#space_wrap{margin-top:30px; margin-left:30px;}
+.space_img{width:1800px; height:1000px;}
 
-/*second*/
-#second_space_wrap{width: 1100px; margin-left: 800px; margin-top: -1054px;}
-.second_img{width: 1100px; height: 1050px; position: relative;}
-
-#space_contents_wrap{width: 750px; height: 1050px; list-style: none; margin-left: 295px; margin-top: -1055px; position: relative; font-size: 13px; background-color: white}
+#space_contents_wrap{width: 750px; height: 1000px; list-style: none; margin-left: 1000px; margin-top: -1005px; position: relative; font-size: 13px; background-color: white;}
 .first_contents_wrap{background-color: white; position: absolute; margin-top: 60px; }
 .second_contents_wrap{background-color: white; position: absolute; margin-top: 200px;}
 .third_contents_wrap{background-color: white; position: absolute; margin-top: 400px;}
@@ -41,7 +36,7 @@ strong{background-color: white;}
 
 .second_contents_wrap > .title{margin-top: 100px;}
 
-#space_btn_wrap{width: 700px; height: 200px; position: absolute; margin-left: 300px; margin-top: -250px;}
+#space_btn_wrap{width: 700px; height: 200px; position: absolute; margin-left: 1000px; margin-top: -250px;}
 .space_btn{width: 150px; height: 150px; margin-left: 150px;}
 .space_text:nth-child(1){margin-left: 175px; margin-top: 20px; position: absolute; color: #488bed; font-size: 18px;}
 .space_text:nth-child(2){margin-left: 475px; margin-top: 20px; position: absolute; color: #488bed; font-size: 18px;}
