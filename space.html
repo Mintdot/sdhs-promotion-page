@@ -2,65 +2,83 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>공간정보학과 </title>
-    <link rel="stylesheet" href="./css/space.css">
+    <title>공간정보학과</title>
+    <link rel="stylesheet" href="css/space.css">
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+        body,html{width:100%; height:100%;}
+        #space_wrap{position: relative; top:calc(50% - 300px); height:600px;}
+        .space_contents_wrap{width:40%; float: left;}
+        .space_left_img{height:600px; float: left; width:60%;}
+        .space_text_wrap{width:80%; float: left; font-size:14px; margin-bottom:4px;}
+
+
+        .space_all_wrap{width:100%; overflow: hidden; margin-top:20px;}
+        .space_all_wrap:nth-child(1){height:70px;}
+        .space_all_wrap:nth-child(2){height:60px;}
+        .space_all_wrap:nth-child(3){height:70px;}
+        .space_all_wrap:nth-child(4){height:80px;}
+        .space_all_wrap:nth-child(5){height:40px;}
+
+
+        .space_title_wrap{width:15%; float: left; padding-right:10px; text-align: right; font-size:14px; color: #01abb8;}
+        .space_all_wrap:nth-child(1) .space_title_wrap{color:black;}
+        .space_all_wrap:nth-child(5) .space_title_wrap{color:black;}
+
+        .space_bar{width:0.8%; background-color: #01abb8; height:100px; float: left; margin-right:10px;}
+        .space_all_wrap:nth-child(1) .space_bar{background-color: gray;}
+        .space_all_wrap:nth-child(5) .space_bar{background-color: gray;}
+
+        .space_btn_wrap{margin-top:40px;}
+        .space_main_btn{width:150px; margin-left:140px;}
+        .space_ss_btn{width:150px; margin-left:120px;}
+    </style>
 </head>
 <body>
 <div id="space_wrap">
-    <img src="./img/dept/space.png" alt="space" class="space_img">
-    <ul id="space_contents_wrap">
-        <li class="space_contents_wall"> </li>
-        <li class="space_contents_wall"></li>
-        <li class="space_contents_wall"></li>
-        <li class="space_contents_wall"></li>
-        <li class="space_contents_wall"></li>
-        <li class="first_contents_wrap">
-            <span class="title"><strong>학과소개</strong></span>
-            <div class="contents_wrap">
-                <span class="contents">21세기는 중심 위치기반 서비스의 생활화시대</span><br><br>
-                <span class="contents">교육분야 : 공간정보 Web,App 개발, 공간정보 데이터처리, 공간정보 지도서비스, 오픈소스</span><br><br>
-                <span class="contents">공간정보 관련 콘텐츠(Web, App, VR, AR 등)를 생산하는 고급 전문가 육성</span>
-            </div>
-        </li>
-        <li class="second_contents_wrap">
-            <span class="title"><strong>공간정보 <br> App/Web 개발</strong></span>
-            <div class="contents_wrap">
-                <span class="contents">목표 : 공간정보 Open API를 활용하여 생활속의 공간정보 App/Web 개발</span><br><br>
-                <span class="contents">교과 : 공간정보의 이해, 공간정보 자바프로그래밍, 공간정보 웹프로그래밍 공간정보 모바일 프로그래밍</span><br><br>
-                <span class="contents"><strong>[ Java, eclipse, HTML5, CSS3, Javascript, WebStorm, XML, Android Studio ]</strong></span>
-            </div>
-        </li>
-        <li class="third_contents_wrap">
-            <span class="title"><strong>공간정보 <br><span class="title-span">데이터처리</span></strong></span>
-            <div class="contents_wrap">
-                <span class="contents">목표 : 데이터의 유형과 제작방법을 익히고, 공공기관에서 제공하는 데이터를 수집하여 공간정보를 구축</span><br><br>
-                <span class="contents">교과 : 공간정보 데이터베이스, 공간정보프로젝트실무</span><br><br>
-                <span class="contents"><strong>[ PostgresSQL, pgAdmin, DA# ]</strong></span>
-            </div>
-        </li>
-        <li class="four_contents_wrap">
-            <span class="title"><strong>공간정보 <br> 지도서비스 활용</strong></span>
-            <div class="contents_wrap">
-                <span class="contents">목표 : 위성데이터처리, 공간정보 분석기법등을 익히고 이를 게임 및 실생활에 필요한 공간정보로 활용</span><br><br>
-                <span class="contents">교과 : 위성영상처리, 공간정보 응용, Open Source S/W</span><br><br>
-                <span class="contents"><strong>[ QGIS, AreGIS ]</strong></span>
-            </div>
-        </li>
-        <li class="last_contents_wrap">
-            <span class="title"><strong>취득자격증</strong></span>
-            <div class="contents_wrap"><span class="contents">정보처리기능사,ITQ,웹디자인기능사,지도제작기능사,빅데이터분석전문가</span></div>
-        </li>
-    </ul>
-    <div id="space_btn_wrap">
-        <a href="./index.html"><img src="img/btn/main.png" alt="" class="space_btn"></a>
-        <a href="./ss.html"><img src="img/btn/ss_btn.png" alt="" class="space_btn"></a>
-        <div class="space_btn_text">
-            <p class="space_text">MAIN PAGE</p>
-            <p class="space_text">SMART SPACE</p>
+    <img src="img/dept/space.png" alt="" class="space_left_img">
+    <div class="space_contents_wrap">
+
+        <div class="space_all_wrap">
+            <strong><div class="space_title_wrap"><p>학과소개</p></div></strong>
+            <div class="space_bar"></div>
+            <div class="space_text_wrap"><p>21세기는 중심 위치기반 서비스의 생활화시대</p></div>
+            <div class="space_text_wrap"><p>교육분야 : 공간정보 Web,App 개발, 공간정보 데이터처리, 공간정보 지도서비스, 오픈소스</p></div>
+            <div class="space_text_wrap"><p>공간정보 관련 콘텐츠(Web, App, VR, AR 등)를 생산하는 고급 전문가 육성</p></div>
+        </div>
+
+
+        <div class="space_all_wrap">
+            <strong><div class="space_title_wrap"><p>공간정보 <br>APP/Web 개발</p></div></strong>
+            <div class="space_bar"></div>
+            <div class="space_text_wrap"><p>목표 : 공간정보 Open API를 활용하여 생활속의 공간정보 App/Web 개발</p></div>
+            <div class="space_text_wrap"><p>교과 : 공간정보의 이해,자바프로그래밍,웹프로그래밍,모바일 프로그래밍</div>
+        </div>
+
+        <div class="space_all_wrap">
+            <strong><div class="space_title_wrap"><p>공간정보 <br> 데이터처리</p></div></strong>
+            <div class="space_bar"></div>
+            <div class="space_text_wrap"><p>목표 :공간정보 데이터의 다양한 유형과 제작방법을 익히고, 공공기관에서 제공하는 <br>데이터를 수집하여 공간정보를 구축</p></div>
+            <div class="space_text_wrap"><p>교과 : 공간정보 데이터베이스, 공간정보프로젝트실무</p></div>
+        </div>
+
+        <div class="space_all_wrap">
+            <strong><div class="space_title_wrap"><p>공간정보 <br> 지도서비스 활용</p></div></strong>
+            <div class="space_bar"></div>
+            <div class="space_text_wrap"><p>목표 : 위성데이터처리, 공간정보 분석기법등을 익히고 이를 게임 및 실생활에 필요한 공간정보로 활용</p></div>
+            <div class="space_text_wrap"><p>교과 : 위성영상처리, 공간정보 응용, Open Source S/W</p></div>
+        </div>
+
+        <div class="space_all_wrap">
+            <strong><div class="space_title_wrap"><p>취득자격증</p></div></strong>
+            <div class="space_bar"></div>
+            <div class="space_text_wrap"><p>정보처리기능사,ITQ,웹디자인기능사,지도제작기능사,빅데이터분석전문가</p></div>
+        </div>
+        <div class="space_btn_wrap">
+            <a href="index.html"><img src="img/btn/main.png" alt="" class="space_main_btn"></a>
+            <a href="ss.html"><img src="img/btn/ss_btn.png" alt="" class="space_ss_btn"></a>
         </div>
     </div>
 </div>
-</div>
-<div id="footer_logo"><img src="img/footer.png" alt="footer"></div>
 </body>
 </html>

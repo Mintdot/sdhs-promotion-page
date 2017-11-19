@@ -2,8 +2,8 @@
 
 /*header*/
 header{width: 1000px; height: 250px; margin: 0 auto;}
-#back_img{position: absolute; width: 150px; height: 150px; margin-left: 1250px; margin-top: -20px;}
-#back_text{position: absolute; margin-left: 1300px; margin-top: 140px; color: #ffa500;}
+#back_img{position: absolute; width: 100px; height: 100px; margin-left: 1320px; margin-top: -20px;}
+#back_text{position: absolute; margin-left: 1340px; margin-top: 100px; color: #ffa500;}
 #logo{margin-top: 20px;}
 #ss_logo{display: block; margin-left: auto; margin-right: auto; height:250px;}
 
