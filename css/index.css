@@ -16,8 +16,8 @@ section{width: 1400px; height: 690px; margin: 0 auto;}
 #game_text{color: #ee155a; font-size: 24px; float: left; margin-left: 80px;}
 #vr_text{color: #9c258d; float: left; font-size: 24px; margin-left: 100px;}
 #space_text{color: #f8aa3a; float: left; font-size: 24px; margin-left: 100px;}
-#iot_text{color: #01abb8; float: left; font-size: 24px; margin-left: 100px;        }
-#video{margin-left: 200px;}
+#iot_text{color: #01abb8; float: left; font-size: 24px; margin-left: 100px;}
+#video{width:1000px; height:350px;   margin-left: 200px;}
 
 /*footer*/
 footer{}

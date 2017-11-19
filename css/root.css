@@ -12,6 +12,7 @@ section{width: 1600px; height: 500px; margin: 0 auto;}
 #syshk_text{position: absolute; margin-top: -50px; margin-left: 130px; color: #2bb673; font-size: 32px;}
 #webhk_text{position: absolute; margin-left: 1120px; margin-top: -50px; color: #2bb673; font-size: 32px;}
 
+.root_video{width:300px; height:200px;}
 .root_video:nth-child(1){margin-left:140px;}
 .root_video:nth-child(2){margin-left:170px;}
 .root_video:nth-child(3){margin-left:180px;}
