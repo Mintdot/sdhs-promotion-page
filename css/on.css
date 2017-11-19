@@ -1,0 +1,29 @@
+*{margin: 0; padding: 0; box-sizing: border-box; background-color: #eeeeee; font-family: sans-serif; background-color: #eeeeee; }
+
+/*header*/
+header{width: 1000px; height: 250px; margin: 0 auto;}
+#back_img{position: absolute; width: 100px; height: 100px; margin-left: 1180px; margin-top: -10px;}
+#back2_img{position: absolute; width: 100px; height: 100px; margin-left: 1320px; margin-top: -10px;}
+#back_text{position: absolute; margin-left: 1180px; margin-top: 100px; color: #ee155a;}
+#back2_text{position: absolute; margin-left: 1330px; margin-top: 100px; color: #9c258d;}
+
+#logo{margin-top: 20px;}
+#on_logo{display: block; margin-left: auto; margin-right: auto; height:250px;}
+
+/*section*/
+section{width: 1000px; height: 630px; margin: 0 auto;}
+#text_on_wrap{color: #3c6dc2; width: 1000px;}
+.text_on{text-align: center; font-size: 18px;}
+
+#pf_wrap{width: 1500px; height: 350px; margin-left: -150px;}
+.imgs{width :400px; height: 250px;}
+
+#game{display: inline-block;}
+#game_text{color: #3c6dc2; background-color: white; width: 400px; text-align: center; margin-left: -150px; margin-top: -95px; height: 65px;}
+
+#game2{display: inline-block; margin-left:505px;}
+#game2_text{color: #3c6dc2; background-color: white; width: 400px; text-align: center; margin-left: 760px; margin-top: -65px;}
+
+/*footer*/
+footer{margin: 0 auto; width: 500px; height: 50px;}
+.on_footer_img{margin: 0 auto; display: block;}
