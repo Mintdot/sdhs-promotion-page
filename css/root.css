@@ -1,4 +1,5 @@
 *{margin: 0; padding: 0; font-family: sans-serif; box-sizing: border-box; background-color: #eeeeee; }
+iframe{border-width: 0px;}
 
 /*header*/
 header{width: 1000px; height: 300px; margin: 0 auto;}
