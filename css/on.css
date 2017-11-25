@@ -1,4 +1,22 @@
-*{margin: 0; padding: 0; box-sizing: border-box; background-color: #eeeeee; font-family: sans-serif; background-color: #eeeeee; }
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;}
+
+@keyframes slide-to-right{
+    from{left : 0;}
+    to{left:100%}
+}
+@keyframes slide-to-left{
+    from{left : 0;}
+    to{left:-100%}
+}
+
+@keyframes slide-to-middle{
+    from{left : -100%;}
+    to{left:0}
+}
+@keyframes slide-to-middle2{
+    from{left : 100%;}
+    to{left:0}
+}
 
 /*header*/
 header{width: 1000px; height: 250px; margin: 0 auto;}
@@ -15,14 +33,28 @@ section{width: 1000px; height: 630px; margin: 0 auto;}
 #text_on_wrap{color: #3c6dc2; width: 1000px;}
 .text_on{text-align: center; font-size: 18px;}
 
-#pf_wrap{width: 1500px; height: 350px; margin-left: -150px;}
-.imgs{width :400px; height: 250px;}
+.pf_all_wrap{width:1000px;}
+.pf_wrap{width: 400px; height: 250px;position: relative; float: left; overflow: hidden;}
+.pf_wrap2{width: 400px; height: 250px;position: relative; float: right; overflow: hidden;}
 
-#game{display: inline-block;}
-#game_text{color: #3c6dc2; background-color: white; width: 400px; text-align: center; margin-left: -150px; margin-top: -95px; height: 65px;}
+.fir_btn_wrap{width:400px; height:250px; position: relative; margin-top: 120px;}
+.sec_btn_wrap{width:400px; height:250px; position: relative; margin-top: 120px;}
 
-#game2{display: inline-block; margin-left:505px;}
-#game2_text{color: #3c6dc2; background-color: white; width: 400px; text-align: center; margin-left: 760px; margin-top: -65px;}
+.on_btn_front{float: left; z-index:999; position: relative;}
+.on_btn_back{float: right; z-index:999; position: relative;}
+
+.on_btn_front2{float: left; z-index:999; position: relative;}
+.on_btn_back2{float: right; z-index:999; position: relative;}
+
+
+
+.imgs{width :400px; height: 250px; position: absolute; top: 0; left:0; animation-duration: 1s; animation-fill-mode: forwards;}
+
+.game_text_wrap{ width:1000px;}
+
+#game_text{color: #3c6dc2; background-color: white; width: 400px; text-align: center; height: 65px; float: left;}
+
+#game2_text{color: #3c6dc2; background-color: white; width: 400px; text-align: center; float: right;}
 
 /*footer*/
 footer{margin: 0 auto; width: 500px; height: 50px;}

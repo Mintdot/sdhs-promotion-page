@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>on</title>
     <link rel="stylesheet" href="./css/on.css">
+
 </head>
 <body>
 <header>
@@ -25,22 +26,44 @@
         <p class="text_on">3D 그래픽 [ 3ds Max, ZBrush, Maya ]</p>
     </div>
     <br>
-    <div id="pf_wrap">
-        <div id="game"><img src="./img/club/on/on_game_1-1.png" alt="pf1" class="imgs"></div>
-        <div id="game2"><img src="./img/club/on/on_game_2-1.png" alt="pf3" class="imgs"></div>
-    </div>
-    <div id="game_text">
-        I Hate You <br><br>
-        모든 면을 하나의 색으로 통일하세요
-    </div>
+    <div class="pf_all_wrap">
 
-    <div id="game2_text">
-        마왕의 그녀들<br><br>
-        마왕군의 시점으로 펼쳐지는 횡스크롤 디펜스 게임
+        <div class="pf_wrap" id="pf_wrap">
+            <img src="./img/club/on/on_game_1-1.png" alt="pf1" class="imgs">
+            <img src="./img/club/on/on_game_1-2.png" alt="pf1" class="imgs">
+            <img src="./img/club/on/on_game_1-3.png" alt="pf1" class="imgs">
+
+            <div class="fir_btn_wrap">
+                <button id="on_front" class="on_btn_front" onclick="left1()">◀</button>
+                <button id="on_back" class="on_btn_back" onclick="right1()">▶</button>
+            </div>
+        </div>
+        <div class="pf_wrap2" id="pf2_wrap">
+            <img src="./img/club/on/on_game_2-1.png" alt="pf3" class="imgs">
+            <img src="./img/club/on/on_game_2-2.png" alt="pf3" class="imgs">
+            <img src="./img/club/on/on_game_2-3.png" alt="pf3" class="imgs">
+            <div class="sec_btn_wrap">
+                <button id="on_front2" class="on_btn_front2" onclick="left2()">◀</button>
+                <button id="on_back2" class="on_btn_back2" onclick="right2()">▶</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="game_text_wrap">
+        <div id="game_text">
+            I Hate You <br><br>
+            모든 면을 하나의 색으로 통일하세요
+        </div>
+
+        <div id="game2_text">
+            마왕의 그녀들<br><br>
+            마왕군의 시점으로 펼쳐지는 횡스크롤 디펜스 게임
+        </div>
     </div>
 </section>
 <footer>
     <img src="./img/footer.png" alt="footer" class="on_footer_img">
 </footer>
+<script src="js/slide.js"></script>
 </body>
 </html>
