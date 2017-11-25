@@ -7,27 +7,33 @@
 </head>
 <body>
         <header>
-            <img src="img/logo.png" alt="" id="logo">
+            <img src="./img/logo.png" alt="" id="logo">
         </header>
         <section>
             <div id="header_text">[ 학과를 선택해주세요 ]</div>
             <div id="btn_wrap">
-                <a href="./game.html"><img src="img/btn/game_btn.png" alt="game" id="game"></a>
-                <a href="./vr.html"><img src="img/btn/vr_btn.png" alt="vr" id="vr"></a>
-                <a href="./space.html"><img src="img/btn/space_btn.png" alt="space" id="space"></a>
-                <a href="./iot.html"><img src="img/btn/iot_btn.png" alt="iot" id="iot"></a>
+                <div id="game">
+                    <a href="./game.html"><img src="img/btn/game_btn.png" alt="game" id="game_btn"></a>
+                    <p id="game_text">게임콘텐츠과</p>
+                </div>
+                <div id="vr">
+                    <a href="./vr.html"><img src="img/btn/vr_btn.png" alt="vr" id="vr_btn"></a>
+                    <p id="vr_text">VR콘텐츠과</p>
+                </div>
+                <div id="space">
+                    <a href="./space.html"><img src="img/btn/space_btn.png" alt="space" id="space_btn"></a>
+                    <p id="space_text">공간정보학과</p>
+                </div>
+                <div id="iot">
+                    <a href="./iot.html"><img src="img/btn/iot_btn.png" alt="iot" id="iot_btn"></a>
+                    <p id="iot_text">사물인터넷과</p>
+                </div>
             </div>
-            <div id="btntext_wrap">
-                <div id="game_text">게임콘텐츠과</div>
-                <div id="vr_text">VR콘텐츠과</div>
-                <div id="space_text">공간정보학과</div>
-                <div id="iot_text">사물인터넷과</div>
-            </div>
-            <iframe src="https://www.youtube.com/embed/Q_oHyNVQUcc" allowfullscreen id="video"></iframe>
+            <div id="video_wrap"><iframe src="https://www.youtube.com/embed/Q_oHyNVQUcc" allowfullscreen id="video"></iframe></div>
         </section>
         <footer>
             <img src="./img/footer.png" alt="footer" id="ft_img">
         </footer>
-
+        <script src="./js/all.js"></script>
 </body>
 </html>

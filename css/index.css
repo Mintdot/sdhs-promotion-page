@@ -2,24 +2,23 @@
 iframe{border-width: 0px;}
 
 /*header*/
-header{width: 1400px; height: 200px; margin: 0 auto;}
+header{width: 75%; margin: 0 auto;}
 #logo{width: 378px; height: 185px; margin-top:10px;display: block; margin-left: auto; margin-right: auto;}
 
 /*section*/
-section{width: 1400px; height: 690px; margin: 0 auto;}
+section{width: 75%; margin-top: 10px; margin-left: auto; margin-right: auto;}
 #header_text{color: #0080ca; font-size: 24px; text-align: center;}
-#btn_wrap{width: 1000px; height: 180px; margin-left: 200px; margin-top: 20px;}
-#game{width: 150px;  height: 150px; margin-top: 10px; margin-left: 80px;}
-#vr{width: 150px; height: 150px; margin-top: 10px; margin-left: 80px;}
-#space{width: 150px; height: 150px; margin-top: 10px; margin-left: 80px;}
-#iot{width: 150px; height: 150px; margin-top: 10px; margin-left: 80px;}
-#btntext_wrap{width: 1000px; height: 50px; margin: 0 auto;}
-#game_text{color: #ee155a; font-size: 24px; float: left; margin-left: 80px;}
-#vr_text{color: #9c258d; float: left; font-size: 24px; margin-left: 100px;}
-#space_text{color: #f8aa3a; float: left; font-size: 24px; margin-left: 100px;}
-#iot_text{color: #01abb8; float: left; font-size: 24px; margin-left: 100px;}
-#video{width:1000px; height:350px; margin-left: 200px;}
+#btn_wrap{width: 50%; margin: 0 auto;}
+#game_btn{width: 15%;}
+#vr_btn{width: 15%;}
+#space_btn{width: 15%;}
+#iot_btn{width: 15%;}
+#game_text{color: #ee155a;}
+#vr_text{color: #9c258d;}
+#space_text{color: #f8aa3a;}
+#iot_text{color: #01abb8;}
+#video{width: 1000px; height: 300px; margin-left: 200px;}
 
 /*footer*/
-footer{width: 100%;}
-#ft_img{display:block; margin-left:auto; margin-right:auto;}
+footer{width: 100%; margin-top: 10px; margin-left: auto; margin-right: auto;}
+#ft_img{display:block; margin: 0 auto;}
