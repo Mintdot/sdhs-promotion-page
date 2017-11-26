@@ -10,7 +10,7 @@ header{width: 75%; margin: 0 auto;}
 section{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
 #header_text{color: #0080ca; font-size: x-large; text-align: center;}
 #btn_wrap{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
-#btn_wrap > div{float: left; width: 25%; text-align: center}
+#btn_wrap > div{width: 25%; float: left; text-align: center}
 #btn_wrap > div > a > img{width: 50%;}
 #btn_wrap > div > p{font-size: 1.25em}
 #game_text{color: #ee155a;}
