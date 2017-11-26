@@ -1,4 +1,5 @@
 *{margin: 0; padding: 0; box-sizing: border-box; background-color: #eeeeee; font-family: sans-serif; background-color: #eeeeee; }
+body,html{width:100%; height:100%;}
 a{text-decoration: none;}
 
 /*header*/
