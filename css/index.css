@@ -7,7 +7,7 @@ header{width: 75%; margin: 0 auto;}
 #logo{width: 20%; height: auto; margin-top:1%; display: block; margin-left: auto; margin-right: auto;}
 
 /*section*/
-section{width: 75%; margin-top: 10px; margin-left: auto; margin-right: auto;}
+section{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
 #header_text{color: #0080ca; font-size: x-large; text-align: center;}
 #btn_wrap{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
 #btn_wrap > div{float: left; width: 25%; text-align: center}
