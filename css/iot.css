@@ -1,8 +1,8 @@
 *{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;}
 body,html{width:100%;}
-#iot_wrap{position: relative; top:calc(50% - 300px); height:600px;}
-.iot_contents_wrap{width:40%; float: left;}
-.iot_left_img{height:600px; float: left; width:60%;}
+#iot_wrap{position: absolute; top:calc(50% - 300px);}
+.iot_contents_wrap{width:40%; float: left; min-width: 600px;}
+.iot_left_img{height:600px; float: left; width:60%; min-width: 1000px;}
 .iot_text_wrap{width:80%; float: left; font-size:14px; margin-bottom:4px;}
 
 
@@ -12,10 +12,10 @@ body,html{width:100%;}
 .iot_all_wrap:nth-child(3){height:50px;}
 .iot_all_wrap:nth-child(4){height:70px;}
 .iot_all_wrap:nth-child(5){height:40px;}
-.iot_all_wrap:nth-child(6){height:30px;}
+.iot_all_wrap:nth-child(6){height:40px;}
 
 
-.iot_title_wrap{width:15%; float: left; padding-right:10px; text-align: right; font-size:14px;}
+.iot_title_wrap{width:15%; float: left; padding-right:10px; text-align: right; font-size:14px; min-width: 100px;}
 .iot_all_wrap:nth-child(2) .iot_title_wrap{color:#01abb8;}
 .iot_all_wrap:nth-child(3) .iot_title_wrap{color:#01abb8;}
 .iot_all_wrap:nth-child(4) .iot_title_wrap{color:#01abb8;}

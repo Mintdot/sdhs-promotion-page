@@ -1,13 +1,13 @@
 *{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
 body, html{width:100%;}
 
-#space_wrap{position: relative; top:calc(50% - 300px); height:600px;}
-.space_contents_wrap{width:40%; float: left;}
-.space_left_img{height:600px; float: left; width:60%;}
+#space_wrap{position: absolute; top:calc(50% - 300px);}
+.space_contents_wrap{width:42%; float: left; min-width: 680px;}
+.space_left_img{height:600px; float: left; width:58%; min-width: 1000px;}
 .space_text_wrap{width:80%; float: left; font-size:14px; margin-bottom:4px;}
 
 
-.space_all_wrap{width:100%; margin-top:20px;}
+.space_all_wrap{width:100%; margin-top:20px; overflow: hidden;}
 .space_all_wrap:nth-child(1){height:85px;}
 .space_all_wrap:nth-child(2){height:60px;}
 .space_all_wrap:nth-child(3){height:70px;}
@@ -15,7 +15,7 @@ body, html{width:100%;}
 .space_all_wrap:nth-child(5){height:40px;}
 
 
-.space_title_wrap{width:15%; float: left; padding-right:10px; text-align: right; font-size:14px; color: #01abb8;}
+.space_title_wrap{width:15%; float: left; padding-right:10px; text-align: right; font-size:14px; color: #01abb8; min-width: 120px;}
 .space_all_wrap:nth-child(1) .space_title_wrap{color:black;}
 .space_all_wrap:nth-child(5) .space_title_wrap{color:black;}
 

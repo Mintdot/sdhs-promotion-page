@@ -50,6 +50,8 @@ section{width: 1000px; height: 630px; margin: 0 auto;}
 
 
 .imgs{width :400px; height: 250px; position: absolute; top: 0; left:0; animation-duration: 1s; animation-fill-mode: forwards;}
+.imgs:nth-child(1){z-index:999;}
+.imgs:nth-child(2){z-index:998;}
 
 .game_text_wrap{ width:1000px;}
 
