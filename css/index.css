@@ -1,25 +1,24 @@
-*{margin: 0; padding: 0; box-sizing: border-box; background-color: #eeeeee; font-family: sans-serif; }
-html, body{width: 100%; height: 100%;}
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;}
+html, body{width: 100%; font-size: 100%; background-color: #eeeeee;}
 iframe{border-width: 0px;}
 
 /*header*/
 header{width: 75%; margin: 0 auto;}
-#logo{width: 378px; height: 185px; margin-top:10px;display: block; margin-left: auto; margin-right: auto;}
+#logo{width: 20%; height: auto; margin-top:10px;display: block; margin-left: auto; margin-right: auto;}
 
 /*section*/
 section{width: 75%; margin-top: 10px; margin-left: auto; margin-right: auto;}
-#header_text{color: #0080ca; font-size: 24px; text-align: center;}
-#btn_wrap{width: 50%; margin: 0 auto;}
-#game_btn{width: 15%;}
-#vr_btn{width: 15%;}
-#space_btn{width: 15%;}
-#iot_btn{width: 15%;}
+#header_text{color: #0080ca; font-size: x-large; text-align: center;}
+#btn_wrap{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
+#btn_wrap > div{float: left; width: 25%; text-align: center}
+#btn_wrap > div > a > img{width: 50%;}
+#btn_wrap > div > p{font-size: 1.25em}
 #game_text{color: #ee155a;}
 #vr_text{color: #9c258d;}
 #space_text{color: #f8aa3a;}
 #iot_text{color: #01abb8;}
-#video{width: 1000px; height: 300px; margin-left: 200px;}
+#video{width: 75%; height: 400px; display: table; margin: 0 auto;}
 
 /*footer*/
-footer{width: 100%; margin-top: 10px; margin-left: auto; margin-right: auto;}
+footer{width: 100%; margin-top: 1%; margin-left: auto; margin-right: auto;}
 #ft_img{display:block; margin: 0 auto;}
