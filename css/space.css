@@ -1,5 +1,5 @@
 *{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;}
-body, html{width:100%; font-size: 100%}
+body, html{width:100%; font-size: 100%;}
 
 #space_wrap{position: absolute; top: 50%}
 
@@ -9,7 +9,7 @@ body, html{width:100%; font-size: 100%}
 
 .space_all_wrap{width:100%; margin-top:3%; overflow: hidden;}
 
-.space_title_wrap{width:19%; float: left; text-align: right; color: #01abb8;}
+.space_title_wrap{width:19%; float: left; text-align: right; color: #00a499;}
 .space_all_wrap:nth-child(1)>.space_title_wrap, :nth-child(5)>.space_title_wrap{color: #000000;}
 
 .space_text_wrap{width: 79%; float: right;}

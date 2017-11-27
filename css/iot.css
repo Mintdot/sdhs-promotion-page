@@ -1,33 +1,20 @@
 *{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;}
-body,html{width:100%;}
-#iot_wrap{position: absolute; top:calc(50% - 300px);}
-.iot_contents_wrap{width:40%; float: left; min-width: 600px;}
-.iot_left_img{height:600px; float: left; width:60%; min-width: 1000px;}
-.iot_text_wrap{width:80%; float: left; font-size:14px; margin-bottom:4px;}
+body, html{width:100%; font-size: 100%;}
 
+#iot_wrap{position: absolute; top: 50%}
 
-.iot_all_wrap{width:100%; overflow: hidden; margin-top:20px;}
-.iot_all_wrap:nth-child(1){height:80px;}
-.iot_all_wrap:nth-child(2){height:80px;}
-.iot_all_wrap:nth-child(3){height:50px;}
-.iot_all_wrap:nth-child(4){height:70px;}
-.iot_all_wrap:nth-child(5){height:40px;}
-.iot_all_wrap:nth-child(6){height:40px;}
+.iot_left_img{width: 50%; float: left;}
 
+.iot_contents_wrap{width: 49%; float: right; margin-right: 1%;}
 
-.iot_title_wrap{width:15%; float: left; padding-right:10px; text-align: right; font-size:14px; min-width: 100px;}
-.iot_all_wrap:nth-child(2) .iot_title_wrap{color:#01abb8;}
-.iot_all_wrap:nth-child(3) .iot_title_wrap{color:#01abb8;}
-.iot_all_wrap:nth-child(4) .iot_title_wrap{color:#01abb8;}
-.iot_all_wrap:nth-child(5) .iot_title_wrap{color:#01abb8;}
+.iot_all_wrap{width:100%; margin-top:3%; overflow: hidden;}
 
-.iot_bar{width:0.8%; background-color: gray; height:100px; float: left; margin-right:10px;}
-.iot_all_wrap:nth-child(2) .iot_bar{background-color: #01abb8;}
-.iot_all_wrap:nth-child(3) .iot_bar{background-color: #01abb8;}
-.iot_all_wrap:nth-child(4) .iot_bar{background-color: #01abb8;}
-.iot_all_wrap:nth-child(5) .iot_bar{background-color: #01abb8;}
+.iot_title_wrap{width:19%; float: left; text-align: right; color: #01abb8;}
+.iot_all_wrap:nth-child(1)>.iot_title_wrap, :nth-child(6)>.iot_title_wrap{color: #000000;}
 
-.iot_btn_wrap{margin-top:10px;}
-.iot_main_btn{width:150px; margin-left:5%;}
-.iot_mod_btn{width:150px; margin-left:5%;}
-.iot_root_btn{width:150px; margin-left:5%;}
+.iot_text_wrap{width: 79%; float: right;}
+
+.iot_btn_wrap{width: 100%; margin-top: 1%; float: left; text-align: center;}
+.iot_btn_wrap > a > img{width: 15%;}
+.iot_btn_wrap > a:nth-child(1) > img{margin-right: 1%;}
+.iot_btn_wrap > a:nth-child(2) > img{margin-left: 1%;}

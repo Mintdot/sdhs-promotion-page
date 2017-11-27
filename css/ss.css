@@ -18,14 +18,15 @@ section{width: 1000px; height: 630px; margin: 0 auto;}
 #text_pf{color: #488bed; font-size: 42px; text-align: center;}
 
 #pf_wrap{width: 1350px; height: 350px; margin-left: -150px;}
-.imgs{width :400px; height: 250px; opacity: 0.6;}
+.imgs{width :400px; height: 250px; }
+#pf_wrap > div > a{opacity: 0.6;}
 #check{display: inline-block; background-color: black;}
 #check_text{color: #488bed; background-color: white; width: 400px; text-align: center; margin-left: -150px; margin-top: -95px; height: 65px;}
 
-#map{display: inline-block; margin-left: 50px; background-color: black;}
+#map,#bus{display: inline-block; margin-left: 50px; background-color: black;}
 #map_text{color: #488bed; background-color: white; width: 400px; text-align: center; margin-left: 305px; margin-top: -65px;}
 
-#bus{display: inline-block; margin-left:50px; background-color: black;}
+
 #bus_text{color: #488bed; background-color: white; width: 400px; text-align: center; margin-left: 760px; margin-top: -65px;}
 
 /*footer*/

@@ -1,28 +1,20 @@
-*{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
-body,html{width:100%;}
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;}
+body, html{width:100%; font-size: 100%;}
 
-#game_wrap{position: absolute; top:calc(50% - 300px); }
-.game_contents_wrap{width:40%; float: left; min-width: 600px;}
-.game_left_img{height:600px; float: left; width:60%; min-width: 1000px;}
-.game_text_wrap{width:80%; float: left; font-size:14px; margin-bottom:4px;}
+#game_wrap{position: absolute; top: 50%;}
 
+.game_left_img{width: 50%; float: left;}
 
-.game_all_wrap{width:100%; overflow: hidden; margin-top:20px;}
-.game_all_wrap:nth-child(1){height:60px;}
-.game_all_wrap:nth-child(2){height:100px;}
-.game_all_wrap:nth-child(3){height:100px;}
-.game_all_wrap:nth-child(4){height:40px;}
-.game_all_wrap:nth-child(5){height:70px;}
+.game_contents_wrap{width: 49%; float: right; margin-right: 1%;}
 
+.game_all_wrap{width:100%; margin-top:3%; overflow: hidden;}
 
-.game_title_wrap{width:15%; float: left; padding-right:10px; text-align: right; font-size:14px; color: #ee155a; min-width: 105px;}
-.game_all_wrap:nth-child(1) .game_title_wrap{color:black;}
-.game_all_wrap:nth-child(5) .game_title_wrap{color:black;}
+.game_title_wrap{width:19%; float: left; text-align: right; color: #ee155a;}
+.game_all_wrap:nth-child(1)>.game_title_wrap, :nth-child(5)>.game_title_wrap{color: #000000;}
 
-.game_bar{width:0.8%; background-color: #ee155a; height:100px; float: left; margin-right:10px;}
-.game_all_wrap:nth-child(1) .game_bar{background-color: gray;}
-.game_all_wrap:nth-child(5) .game_bar{background-color: gray;}
+.game_text_wrap{width: 79%; float: right;}
 
-.game_btn_wrap{margin-top:20px;}
-.game_main_btn{width:150px; margin-left:140px;}
-.game_on_btn{width:150px; margin-left:120px;}
+.game_btn_wrap{width: 100%; margin-top: 1%; float: left; text-align: center;}
+.game_btn_wrap > a > img{width: 15%;}
+.game_btn_wrap > a:nth-child(1) > img{margin-right: 1%;}
+.game_btn_wrap > a:nth-child(2) > img{margin-left: 1%;}
