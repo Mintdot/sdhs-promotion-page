@@ -4,15 +4,15 @@ iframe{border-width: 0px;}
 
 /*header*/
 header{width: 75%; margin-top:1%; margin-left: auto; margin-right: auto;}
-#logo{width: 20%; height: auto; display: block; margin: 0 auto;}
+#logo{width: 20%; display: block; margin: 0 auto;}
 
 /*section*/
 section{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
-#header_text{color: #0080ca; font-size: 1.5em; text-align: center;}
+#header_text{color: #0080ca; font-size: 1.5rem; text-align: center;}
 #btn_wrap{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
 #btn_wrap > div{width: 25%; float: left; text-align: center}
 #btn_wrap > div > a > img{width: 50%;}
-#btn_wrap > div > p{font-size: 1.25em}
+#btn_wrap > div > p{font-size: 1.25rem}
 #game_text{color: #ee155a;}
 #vr_text{color: #9c258d;}
 #space_text{color: #f8aa3a;}

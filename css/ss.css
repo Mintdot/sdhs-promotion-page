@@ -1,24 +1,24 @@
 *{margin: 0; padding: 0; box-sizing: border-box; background-color: #eeeeee; font-family: sans-serif;}
 body,html{width:100%; background-color: #eeeeee; font-size: 100%;}
 a{text-decoration: none;}
+p{font-weight: bold;}
+.pf > p{font-weight: normal;}
 
 /*header*/
-header{width: 100%; margin-top:1%;}
+header{width: 100%; margin-top: 1%;}
 .back_wrap{float: right; text-align: center;}
 #ss_back_img{width: 15%;}
 #ss_back_text{color: #ffa500;}
-.logo_wrap{clear: both;}
-.logo{width: 25%; display: block; margin: 0 auto;}
-/* #488bed */
+
 /*section*/
-section{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
-#ss_intro{text-align: center; color: #488bed; font-size: 1.25em; line-height: 150%;}
-#portfolio > p{color: #488bed; font-size: 1.5rem; text-align: center; margin-top: 1%;}
-#pf_wrap{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
-.pf{width: 25%; float: left; text-align: center;}
-/*.pf_img > a{opacity: 0.6}*/
-.pf_img > a > img{width: 75%; height: 150px;}
-/*.pf_img{background-color: #000000;}*/
+section{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto; clear: both;}
+.logo{width: 20%; display: block; margin: 0 auto;}
+#ss_intro{text-align: center; color: #488bed; font-size: 1.25em; line-height: 175%; margin-top: 1%;}
+.portfolio > p{color: #488bed; font-size: 1.5rem; text-align: center; margin-top: 1%;}
+#ss_pf_wrap{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
+.pf{width: 33.33%; float: left; text-align: center;}
+.pf > a > img{width: 75%; height: 150px;}
+.pf > p{color: #488bed; font-size: 1.25em;}
 
 /*footer*/
 footer{width: 100%; margin-top: 1%; margin-left: auto; margin-right: auto; clear: both}
