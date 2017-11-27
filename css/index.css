@@ -3,12 +3,12 @@ html, body{width: 100%; font-size: 100%; background-color: #eeeeee;}
 iframe{border-width: 0px;}
 
 /*header*/
-header{width: 75%; margin: 0 auto;}
-#logo{width: 20%; height: auto; margin-top:1%; display: block; margin-left: auto; margin-right: auto;}
+header{width: 75%; margin-top:1%; margin-left: auto; margin-right: auto;}
+#logo{width: 20%; height: auto; display: block; margin: 0 auto;}
 
 /*section*/
 section{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
-#header_text{color: #0080ca; font-size: x-large; text-align: center;}
+#header_text{color: #0080ca; font-size: 1.5em; text-align: center;}
 #btn_wrap{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
 #btn_wrap > div{width: 25%; float: left; text-align: center}
 #btn_wrap > div > a > img{width: 50%;}
@@ -21,4 +21,4 @@ section{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
 
 /*footer*/
 footer{width: 100%; margin-top: 1%; margin-left: auto; margin-right: auto;}
-#ft_img{display:block; margin: 0 auto;}
+.footer{display:block; margin: 0 auto;}
