@@ -3,18 +3,18 @@ body, html{width:100%; font-size: 100%;}
 
 #iot_wrap{position: absolute; top: 50%}
 
-.iot_left_img{width: 50%; float: left;}
+#iot_wrap .iot_left_img{width: 50%; float: left;}
 
-.iot_contents_wrap{width: 49%; float: right; margin-right: 1%;}
+#iot_wrap .iot_contents_wrap{width: 49%; float: right; margin-right: 1%;}
 
-.iot_all_wrap{width:100%; margin-top:3%; overflow: hidden;}
+#iot_wrap .iot_all_wrap{width:100%; margin-top:3%; overflow: hidden;}
 
-.iot_title_wrap{width:19%; float: left; text-align: right; color: #01abb8;}
-.iot_all_wrap:nth-child(1)>.iot_title_wrap, :nth-child(6)>.iot_title_wrap{color: #000000;}
+#iot_wrap .iot_title_wrap{width:19%; float: left; text-align: right; color: #01abb8;}
+#iot_wrap .iot_all_wrap:nth-child(1)>.iot_title_wrap, #iot_wrap :nth-child(6)>.iot_title_wrap{color: #000000;}
 
-.iot_text_wrap{width: 79%; float: right;}
+#iot_wrap .iot_text_wrap{width: 79%; float: right;}
 
-.iot_btn_wrap{width: 100%; margin-top: 1%; float: left; text-align: center;}
-.iot_btn_wrap > a > img{width: 15%;}
-.iot_btn_wrap > a:nth-child(1) > img{margin-right: 1%;}
-.iot_btn_wrap > a:nth-child(2) > img{margin-left: 1%;}
+#iot_wrap .iot_btn_wrap{width: 100%; margin-top: 1%; float: left; text-align: center;}
+#iot_wrap .iot_btn_wrap > a > img{width: 15%;}
+#iot_wrap .iot_btn_wrap > a:nth-child(1) > img{margin-right: 1%;}
+#iot_wrap .iot_btn_wrap > a:nth-child(2) > img{margin-left: 1%;}

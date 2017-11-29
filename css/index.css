@@ -1,24 +1,23 @@
 *{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;}
 html, body{width: 100%; font-size: 100%; background-color: #eeeeee;}
-iframe{border-width: 0px;}
 
 /*header*/
-header{width: 75%; margin-top:1%; margin-left: auto; margin-right: auto;}
-#logo{width: 20%; display: block; margin: 0 auto;}
+#index_wrap header{width: 75%; margin-top:1%; margin-left: auto; margin-right: auto;}
+#index_wrap #logo{width: 20%; display: block; margin: 0 auto;}
 
 /*section*/
-section{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
-#header_text{color: #0080ca; font-size: 1.5rem; text-align: center;}
-#btn_wrap{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
-#btn_wrap > div{width: 25%; float: left; text-align: center}
-#btn_wrap > div > a > img{width: 50%;}
-#btn_wrap > div > p{font-size: 1.25rem}
-#game_text{color: #ee155a;}
-#vr_text{color: #9c258d;}
-#space_text{color: #f8aa3a;}
-#iot_text{color: #01abb8;}
-#video{width: 75%; height: 400px; display: table; margin: 0 auto;}
+#index_wrap section{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
+#index_wrap #header_text{color: #0080ca; font-size: 1.5rem; text-align: center;}
+#index_wrap #btn_wrap{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
+#index_wrap #btn_wrap > div{width: 25%; float: left; text-align: center}
+#index_wrap #btn_wrap > div > a > img{width: 50%;}
+#index_wrap #btn_wrap > div > p{font-size: 1.25rem}
+#index_wrap #game_text{color: #ee155a;}
+#index_wrap #vr_text{color: #9c258d;}
+#index_wrap #space_text{color: #f8aa3a;}
+#index_wrap #iot_text{color: #01abb8;}
+#index_wrap #video{width: 75%; height: 400px; display: table; margin: 0 auto; border-width: 0px;}
 
 /*footer*/
-footer{width: 100%; margin-top: 1%; margin-left: auto; margin-right: auto;}
-.footer{display:block; margin: 0 auto;}
+#index_wrap footer{width: 100%; margin-top: 1%; margin-left: auto; margin-right: auto;}
+#index_wrap .footer{display:block; margin: 0 auto;}

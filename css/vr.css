@@ -3,18 +3,18 @@ body, html{width:100%; font-size: 100%;}
 
 #vr_wrap{position: absolute; top: 50%}
 
-.vr_left_img{width: 50%; float: left;}
+#vr_wrap .vr_left_img{width: 50%; float: left;}
 
-.vr_contents_wrap{width: 49%; float: right; margin-right: 1%;}
+#vr_wrap .vr_contents_wrap{width: 49%; float: right; margin-right: 1%;}
 
-.vr_all_wrap{width:100%; margin-top:3%; overflow: hidden;}
+#vr_wrap .vr_all_wrap{width:100%; margin-top:3%; overflow: hidden;}
 
-.vr_title_wrap{width:19%; float: left; text-align: right; color: #9c258d;}
-.vr_all_wrap:nth-child(1)>.vr_title_wrap, :nth-child(5)>.vr_title_wrap{color: #000000;}
+#vr_wrap .vr_title_wrap{width:19%; float: left; text-align: right; color: #9c258d;}
+#vr_wrap .vr_all_wrap:nth-child(1)>.vr_title_wrap, #vr_wrap :nth-child(5)>.vr_title_wrap{color: #000000;}
 
-.vr_text_wrap{width: 79%; float: right;}
+#vr_wrap .vr_text_wrap{width: 79%; float: right;}
 
-.vr_btn_wrap{width: 100%; margin-top: 1%; float: left; text-align: center;}
-.vr_btn_wrap > a > img{width: 15%;}
-.vr_btn_wrap > a:nth-child(1) > img{margin-right: 1%;}
-.vr_btn_wrap > a:nth-child(2) > img{margin-left: 1%;}
+#vr_wrap .vr_btn_wrap{width: 100%; margin-top: 1%; float: left; text-align: center;}
+#vr_wrap .vr_btn_wrap > a > img{width: 15%;}
+#vr_wrap .vr_btn_wrap > a:nth-child(1) > img{margin-right: 1%;}
+#vr_wrap .vr_btn_wrap > a:nth-child(2) > img{margin-left: 1%;}

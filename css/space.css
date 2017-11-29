@@ -3,18 +3,18 @@ body, html{width:100%; font-size: 100%;}
 
 #space_wrap{position: absolute; top: 50%}
 
-.space_left_img{width: 50%; float: left;}
+#space_wrap .space_left_img{width: 50%; float: left;}
 
-.space_contents_wrap{width: 49%; float: right; margin-right: 1%;}
+#space_wrap .space_contents_wrap{width: 49%; float: right; margin-right: 1%;}
 
-.space_all_wrap{width:100%; margin-top:3%; overflow: hidden;}
+#space_wrap .space_all_wrap{width:100%; margin-top:3%; overflow: hidden;}
 
-.space_title_wrap{width:19%; float: left; text-align: right; color: #00a499;}
-.space_all_wrap:nth-child(1)>.space_title_wrap, :nth-child(5)>.space_title_wrap{color: #000000;}
+#space_wrap .space_title_wrap{width:19%; float: left; text-align: right; color: #00a499;}
+#space_wrap .space_all_wrap:nth-child(1)>.space_title_wrap, #space_wrap :nth-child(5)>.space_title_wrap{color: #000000;}
 
-.space_text_wrap{width: 79%; float: right;}
+#space_wrap .space_text_wrap{width: 79%; float: right;}
 
-.space_btn_wrap{width: 100%; margin-top: 1%; float: left; text-align: center;}
-.space_btn_wrap > a > img{width: 15%;}
-.space_btn_wrap > a:nth-child(1) > img{margin-right: 1%;}
-.space_btn_wrap > a:nth-child(2) > img{margin-left: 1%;}
+#space_wrap .space_btn_wrap{width: 100%; margin-top: 1%; float: left; text-align: center;}
+#space_wrap .space_btn_wrap > a > img{width: 15%;}
+#space_wrap .space_btn_wrap > a:nth-child(1) > img{margin-right: 1%;}
+#space_wrap .space_btn_wrap > a:nth-child(2) > img{margin-left: 1%;}

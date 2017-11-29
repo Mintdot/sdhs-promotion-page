@@ -3,18 +3,18 @@ body, html{width:100%; font-size: 100%;}
 
 #game_wrap{position: absolute; top: 50%;}
 
-.game_left_img{width: 50%; float: left;}
+#game_wrap .game_left_img{width: 50%; float: left;}
 
-.game_contents_wrap{width: 49%; float: right; margin-right: 1%;}
+#game_wrap .game_contents_wrap{width: 49%; float: right; margin-right: 1%;}
 
-.game_all_wrap{width:100%; margin-top:3%; overflow: hidden;}
+#game_wrap .game_all_wrap{width:100%; margin-top:3%; overflow: hidden;}
 
-.game_title_wrap{width:19%; float: left; text-align: right; color: #ee155a;}
-.game_all_wrap:nth-child(1)>.game_title_wrap, :nth-child(5)>.game_title_wrap{color: #000000;}
+#game_wrap .game_title_wrap{width:19%; float: left; text-align: right; color: #ee155a;}
+#game_wrap .game_all_wrap:nth-child(1)>.game_title_wrap, #game_wrap :nth-child(5)>.game_title_wrap{color: #000000;}
 
-.game_text_wrap{width: 79%; float: right;}
+#game_wrap .game_text_wrap{width: 79%; float: right;}
 
-.game_btn_wrap{width: 100%; margin-top: 1%; float: left; text-align: center;}
-.game_btn_wrap > a > img{width: 15%;}
-.game_btn_wrap > a:nth-child(1) > img{margin-right: 1%;}
-.game_btn_wrap > a:nth-child(2) > img{margin-left: 1%;}
+#game_wrap .game_btn_wrap{width: 100%; margin-top: 1%; float: left; text-align: center;}
+#game_wrap .game_btn_wrap > a > img{width: 15%;}
+#game_wrap .game_btn_wrap > a:nth-child(1) > img{margin-right: 1%;}
+#game_wrap .game_btn_wrap > a:nth-child(2) > img{margin-left: 1%;}

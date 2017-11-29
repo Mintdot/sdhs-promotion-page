@@ -1,25 +1,25 @@
 *{margin: 0; padding: 0; box-sizing: border-box; background-color: #eeeeee; font-family: sans-serif;}
 body,html{width:100%; background-color: #eeeeee; font-size: 100%;}
 a{text-decoration: none;}
-p{font-weight: bold;}
-.pf > p{font-weight: normal;}
+#ss_wrap p{font-weight: bold;}
+#ss_wrap .pf > p{font-weight: normal;}
 
 /*header*/
-header{width: 100%; margin-top: 1%;}
-.back_wrap{float: right; text-align: center;}
-#ss_back_img{width: 15%;}
-#ss_back_text{color: #ffa500;}
+#ss_wrap header{width: 100%; margin-top: 1%;}
+#ss_wrap .back_wrap{float: right; text-align: center;}
+#ss_wrap #ss_back_img{width: 15%;}
+#ss_wrap #ss_back_text{color: #ffa500;}
 
 /*section*/
-section{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto; clear: both;}
-.logo{width: 20%; display: block; margin: 0 auto;}
-#ss_intro{text-align: center; color: #488bed; font-size: 1.25em; line-height: 175%; margin-top: 1%;}
-.portfolio > p{color: #488bed; font-size: 1.5rem; text-align: center; margin-top: 1%;}
-#ss_pf_wrap{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
-.pf{width: 33.33%; float: left; text-align: center;}
-.pf > a > img{width: 75%; height: 150px;}
-.pf > p{color: #488bed; font-size: 1.25em;}
+#ss_wrap section{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto; clear: both;}
+#ss_wrap .logo{width: 20%; display: block; margin: 0 auto;}
+#ss_wrap #ss_intro{text-align: center; color: #488bed; font-size: 1.25em; line-height: 175%; margin-top: 1%;}
+#ss_wrap .portfolio > p{color: #488bed; font-size: 1.5rem; text-align: center; margin-top: 1%;}
+#ss_wrap #ss_pf_wrap{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
+#ss_wrap .pf{width: 33.33%; float: left; text-align: center;}
+#ss_wrap .pf > a > img{width: 75%; height: 150px;}
+#ss_wrap .pf > p{color: #488bed; font-size: 1.25em;}
 
 /*footer*/
-footer{width: 100%; margin-top: 1%; margin-left: auto; margin-right: auto; clear: both}
-.footer{display:block; margin: 0 auto;}
+#ss_wrap footer{width: 100%; margin-top: 1%; margin-left: auto; margin-right: auto; clear: both}
+#ss_wrap .footer{display:block; margin: 0 auto;}
