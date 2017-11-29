@@ -1,27 +1,26 @@
 *{margin: 0; padding: 0; font-family: sans-serif; box-sizing: border-box;}
-body,html{width:100%; background-color: #eeeeee; font-size: 100%;}
-iframe{border-width: 0px;}
+body,html{width:100%; font-size: 100%; background-color: #eeeeee;}
 a{text-decoration: none;}
 
 /*header*/
-header{width: 100%; margin-top: 1%;}
-.back_wrap{float: right; text-align: center;}
-#root_back_img{width: 15%;}
-#root_back_text{color: #01abb8;}
+#root_wrap header{width: 100%; margin-top: 1%;}
+#root_wrap .back_wrap{float: right; text-align: center;}
+#root_wrap #root_back_img{width: 15%;}
+#root_wrap #root_back_text{color: #01abb8;}
 
 /*section*/
-section{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto; clear: both;}
-.logo{width: 15%; display: block; margin: 0 auto;}
-#video_wrap{width: 75%; margin: 0 auto;}
-.hack_wrap{width: 33.33%; float: left; text-align: center;}
-.hack_wrap > p{color: #2bb673; font-size: 1.25rem; margin-bottom: 1%;}
-.root_video{width: 75%; height:200px;}
-#kakao_wrap{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
-.kakao{width: 33.33%; float: left; text-align: center;}
-.kakao > a > img{width: 75%;}
+#root_wrap section{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto; clear: both;}
+#root_wrap .logo{width: 15%; display: block; margin: 0 auto;}
+#root_wrap #video_wrap{width: 75%; margin: 0 auto;}
+#root_wrap .hack_wrap{width: 33.33%; float: left; text-align: center;}
+#root_wrap .hack_wrap > p{color: #2bb673; font-size: 1.25rem; margin-bottom: 1%;}
+#root_wrap .root_video{width: 75%; height:200px; border-width: 0px;}
+#root_wrap #kakao_wrap{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
+#root_wrap .kakao{width: 33.33%; float: left; text-align: center;}
+#root_wrap .kakao > a > img{width: 75%;}
 
 
 
 /*footer*/
-footer{width: 100%; margin-top: 1%; margin-left: auto; margin-right: auto; clear: both}
-.footer{display:block; margin: 0 auto;}
+#root_wrap footer{width: 100%; margin-top: 1%; margin-left: auto; margin-right: auto; clear: both}
+#root_wrap .footer{display:block; margin: 0 auto;}
