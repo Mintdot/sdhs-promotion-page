@@ -48,6 +48,6 @@ function right2(){
     imgs2[sno2].style.animationName = "slide-to-middle2";
 
 }
-    var st = setInterval(left1,1000);
-    var st2 = setInterval(left2,1000);
+    var st = setInterval(left1, 2000);
+    var st2 = setInterval(left2, 2000);
 }

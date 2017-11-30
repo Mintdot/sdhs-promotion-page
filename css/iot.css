@@ -1,6 +1,3 @@
-*{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;}
-body, html{width:100%; font-size: 100%;}
-
 #iot_wrap{position: absolute; top: 50%}
 
 #iot_wrap .iot_left_img{width: 50%; float: left;}
