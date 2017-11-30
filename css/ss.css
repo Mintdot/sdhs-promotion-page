@@ -7,7 +7,7 @@ a{text-decoration: none;}
 /*header*/
 #ss_wrap header{width: 100%; margin-top: 1%;}
 #ss_wrap .back_wrap{float: right; text-align: center;}
-#ss_wrap #ss_back_img{width: 15%;}
+#ss_wrap #ss_back_img{width: 15%; cursor: pointer;}
 #ss_wrap #ss_back_text{color: #ffa500;}
 
 /*section*/

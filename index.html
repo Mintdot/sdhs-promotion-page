@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <title>서울디지텍고등학교</title>
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/game.css">
+    <link rel="stylesheet" href="./css/vr.css">
+    <link rel="stylesheet" href="./css/space.css">
+    <link rel="stylesheet" href="./css/iot.css">
+    <link rel="stylesheet" href="./css/ss.css">
+    <link rel="stylesheet" href="./css/mod.css">
+    <link rel="stylesheet" href="./css/root.css">
 </head>
 <body>
 <div id="index_wrap">
@@ -14,19 +21,19 @@
         <div id="header_text">[ 학과를 선택해주세요 ]</div>
         <div id="btn_wrap">
             <div id="game">
-                <a href="./game.html"><img src="img/btn/game_btn.png" alt="game" id="game_btn"></a>
+                <img src="./img/btn/game_btn.png" name="index" alt="game" id="game_btn"onclick="move(name, alt)">
                 <p id="game_text">게임콘텐츠과</p>
             </div>
             <div id="vr">
-                <a href="./vr.html"><img src="img/btn/vr_btn.png" alt="vr" id="vr_btn"></a>
+                <img src="./img/btn/vr_btn.png" name="index" alt="vr" id="vr_btn" onclick="move(name, alt)">
                 <p id="vr_text">VR콘텐츠과</p>
             </div>
             <div id="space">
-                <a href="./space.html"><img src="img/btn/space_btn.png" alt="space" id="space_btn"></a>
+                <img src="./img/btn/space_btn.png" name="index" alt="space" id="space_btn" onclick="move(name, alt)">
                 <p id="space_text">공간정보학과</p>
             </div>
             <div id="iot">
-                <a href="./iot.html"><img src="img/btn/iot_btn.png" alt="iot" id="iot_btn"></a>
+                <img src="./img/btn/iot_btn.png" name="index" alt="iot" id="iot_btn" onclick="move(name, alt)">
                 <p id="iot_text">사물인터넷과</p>
             </div>
         </div>
@@ -36,5 +43,251 @@
         <img src="./img/footer.png" alt="footer" class="footer">
     </footer>
 </div>
+<div id="game_wrap" class="dept_wrap">
+    <img src="./img/dept/game.png" alt="game" class="game_left_img">
+    <div class="game_contents_wrap">
+        <div class="game_all_wrap">
+            <div class="game_title_wrap"><p><strong>학과소개</strong></p></div>
+            <div class="game_text_wrap"><p>게임콘텐츠학과는 문화와 IT 산업을 이끌어가는 원동력</p></div>
+            <div class="game_text_wrap"><p>교육분야: 2D, 3D게임그래픽, 게임프로그래밍, 컴퓨터 음악</p></div>
+            <div class="game_text_wrap"><p>전공심화 프로그램 및 프로젝트 중심의 실무교육을 통해 세계 최고의 게임개발자 육성</p></div>
+        </div>
+        <div class="game_all_wrap">
+            <div class="game_title_wrap"><p><strong>게임그래픽</strong></p></div>
+            <div class="game_text_wrap"><p>목표:2D, 3D게임그래픽 제작도구를 이용하여 실무에 필요한 직무능력 습득</p></div>
+            <div class="game_text_wrap"><p>교과:컴퓨터그래픽, 게임제작기초, 2D컴퓨터게임그래픽, 3D컴퓨터게임그래픽</div>
+            <div class="game_text_wrap"><p>2D게임그래픽 - [Photoshop, Illustrator, Flash, Painter, InDesign]</p></div>
+            <div class="game_text_wrap"><p>3D게임그래픽 - [3DS MAX, Z brush, After Effect, Unity 3D, Substance]</p></div>
+        </div>
+        <div class="game_all_wrap">
+            <div class="game_title_wrap"><p><strong>게임프로그래밍</strong></p></div>
+            <div class="game_text_wrap"><p>목표:C, C++, Windows API 프로그래밍과 DirectX를 이용한 게임제작</p></div>
+            <div class="game_text_wrap"><p>교과:프로그래밍, 게임제작기초, 게임기획, 현장종합프로젝트</p></div>
+            <div class="game_text_wrap"><p>[Visual Studio, Eclipse, Java, C, C++, C#, HTML5, DirectX SDK, Unity 3D]</p></div>
+        </div>
+        <div class="game_all_wrap">
+            <div class="game_title_wrap"><p><strong>게임스코링</strong></p></div>
+            <div class="game_text_wrap"><p>목표:게임이나 애니메이션에 사용하는 배경음악 제작</p></div>
+            <div class="game_text_wrap"><p>교과:음악기초이론, 화성학, 큐베이스, 사운드편집, 오디오 이펙트와 믹싱</p></div>
+        </div>
+        <div class="game_all_wrap">
+            <div class="game_title_wrap"><p><strong>취득자격증</strong></p></div>
+            <div class="game_text_wrap"><p>컴퓨터그래픽스운용기능사, 게임기획전문가, 게임프로그램전문가, 게임그래픽전문가,<br>정보기기운용기능사, GTQ 1급, ITQ, 웹디자인기능사, 멀티미디어콘텐츠제작전문가</p></div>
+        </div>
+        <div class="game_btn_wrap">
+            <img src="./img/btn/main.png" name="game" alt="index" onclick="move(name, alt)">
+            <img src="./img/btn/on_btn.png" name="game" alt="on" onclick="move(name, alt)">
+        </div>
+    </div>
+</div>
+<div id="vr_wrap" class="dept_wrap">
+    <img src="./img/dept/vr.png" alt="vr" class="vr_left_img">
+    <div class="vr_contents_wrap">
+        <div class="vr_all_wrap">
+            <div class="vr_title_wrap"><p><strong>학과소개</strong></p></div>
+            <div class="vr_text_wrap"><p>VR콘텐츠학과는 문화와 4차혁명 산업을 이끌어가는 원동력</p></div>
+            <div class="vr_text_wrap"><p>교육분야: 2D, 3D게임그래픽 제작도구를 이용하여 실무에 필요한 직무능력 습득</p></div>
+            <div class="vr_text_wrap"><p>전공심화 프로그램 및 중심의 시룸교육을 통해 세계 최고의 입체영상전문가육성</p></div>
+        </div>
+        <div class="vr_all_wrap">
+            <div class="vr_title_wrap"><p><strong>게임그래픽</strong></p></div>
+            <div class="vr_text_wrap"><p>목표: 2D, 3D게임그래픽 제작도구를 이용하여 실무에 필요한 직무능력 습득</p></div>
+            <div class="vr_text_wrap"><p>교과: 컴퓨터그래픽, 게임제작기초, 2D컴퓨터게임그래픽, 3D컴퓨터게임그래픽</div>
+            <div class="vr_text_wrap"><p>2D게임그래픽 - [Photoshop, Illustrator, Flash, Painter, InDesign]</p></div>
+            <div class="vr_text_wrap"><p>3D게임그래픽 - [3DS MAX, Z brush, After Effect, Unity 3D, Substance]</p></div>
+        </div>
+        <div class="vr_all_wrap">
+            <div class="vr_title_wrap"><p><strong>게임프로그래밍</strong></p></div>
+            <div class="vr_text_wrap"><p>목표:C, C++, Windows API 프로그래밍과 DirectX를 이용한 게임제작</p></div>
+            <div class="vr_text_wrap"><p>교과:프로그래밍, 게임제작기초, 게임기획, 게임콘텐츠제작</p></div>
+            <div class="vr_text_wrap"><p>[Visual Studio,Eclipse,Java,C,C++,C#,HTML5, DirectX SDK, Unity3D, Unreal 블루스크린]</p></div>
+        </div>
+        <div class="vr_all_wrap">
+            <div class="vr_title_wrap"><p><strong>게임스코링</strong></p></div>
+            <div class="vr_text_wrap"><p>목표: 게임이나 애니메이션에 사용하는 배경음악 제작</p></div>
+            <div class="vr_text_wrap"><p>교과: 음악기초이론, 화성학, 큐베이스, 사운드편집, 오디오 이펙트와 믹싱</p></div>
+        </div>
+        <div class="vr_all_wrap">
+            <div class="vr_title_wrap"><p><strong>취득자격증</strong></p></div>
+            <div class="vr_text_wrap"><p>컴퓨터그래픽스운용기능사, 게임기획전문가, 게임프로그램전문가, 게임그래픽전문가,<br>정보기기운용기능사, GTQ 1급, ITQ, 웹디자인기능사, 멀티미디어콘텐츠제작전문가</p></div>
+        </div>
+        <div class="vr_btn_wrap">
+            <img src="./img/btn/main.png" name="vr" alt="index" onclick="move(name, alt)">
+            <img src="./img/btn/on_btn.png" name="vr" alt="on" onclick="move(name, alt)">
+        </div>
+    </div>
+</div>
+<div id="space_wrap" class="dept_wrap">
+    <img src="./img/dept/space.png" alt="space" class="space_left_img">
+    <div class="space_contents_wrap">
+        <div class="space_all_wrap">
+            <div class="space_title_wrap"><p><strong>학과소개</strong></p></div>
+            <div class="space_text_wrap"><p>21세기는 중심 위치기반 서비스의 생활화시대</p></div>
+            <div class="space_text_wrap"><p>교육분야: 공간정보 Web,App 개발, 공간정보 데이터처리, 공간정보 지도서비스, 오픈소스</p></div>
+            <div class="space_text_wrap"><p>공간정보 관련 콘텐츠(Web, App, VR, AR 등)를 생산하는 고급 전문가 육성</p></div>
+        </div>
+        <div class="space_all_wrap">
+            <div class="space_title_wrap"><p><strong>공간정보<br>App/Web 개발</strong></p></div>
+            <div class="space_text_wrap"><p>목표: 공간정보 Open API를 활용하여 생활속의 공간정보 App/Web 개발</p></div>
+            <div class="space_text_wrap"><p>교과: 공간정보의 이해, 자바프로그래밍, 웹프로그래밍, 모바일프로그래밍</div>
+        </div>
+        <div class="space_all_wrap">
+            <div class="space_title_wrap"><p><strong>공간정보</strong><br><strong>데이터처리</strong></p></div>
+            <div class="space_text_wrap"><p>목표: 공간정보 데이터의 유형과 제작방법을 익히고, 공공데이터를 수집하여 공간정보를 구축</p></div>
+            <div class="space_text_wrap"><p>교과: 공간정보 데이터베이스, 공간정보프로젝트실무</p></div>
+        </div>
+        <div class="space_all_wrap">
+            <div class="space_title_wrap"><p><strong>공간정보</strong><br><strong>지도서비스 활용</strong></p></div>
+            <div class="space_text_wrap"><p>목표: 위성데이터처리, 공간정보 분석기법등을 익히고 게임 및 실생활에 필요한 공간정보로 활용</p></div>
+            <div class="space_text_wrap"><p>교과: 위성영상처리, 공간정보 응용, Open Source S/W</p></div>
+        </div>
+        <div class="space_all_wrap">
+            <div class="space_title_wrap"><p><strong>취득자격증</strong></p></div>
+            <div class="space_text_wrap"><p>정보처리기능사, ITQ, 웹디자인기능사, 지도제작기능사, 빅데이터분석전문가</p></div>
+        </div>
+        <div class="space_btn_wrap">
+            <img src="./img/btn/main.png" name="space" alt="index" onclick="move(name, alt)">
+            <img src="./img/btn/ss_btn.png" name="space" alt="ss" onclick="move(name, alt)">
+        </div>
+    </div>
+</div>
+<div id="iot_wrap" class="dept_wrap">
+    <img src="./img/dept/iot.png" alt="iot" class="iot_left_img">
+    <div class="iot_contents_wrap">
+        <div class="iot_all_wrap">
+            <div class="iot_title_wrap"><p><strong>학과소개</strong></p></div>
+            <div class="iot_text_wrap"><p>IOT(사물인터넷) 도제과 미래 신산업을 이끌 4차 산업혁명 핵심기술의 주역</p></div>
+            <div class="iot_text_wrap"><p>교육분야: NCS 응용소프트웨어 개발(NCS기반 자격 SW개발_L3)</p></div>
+            <div class="iot_text_wrap"><p>기업실무 프로젝트를 통한 Web/App SW개발 전문가 인재 양성</p></div>
+        </div>
+        <div class="iot_all_wrap">
+            <div class="iot_title_wrap"><p><strong>응용소프트웨어</strong></p></div>
+            <div class="iot_text_wrap"><p>목표: 컴퓨터 프로그래밍 언어로 각 업무에 맞는 소프트웨어의 기능에 관한 설계 및 구현</p></div>
+            <div class="iot_text_wrap"><p>교과: 애플리케이션배포, 응용S/W기초기술활용, 프로그래밍언어활용, 화면구현, 서버프로그래밍구현</div>
+            <div class="iot_text_wrap"><p>[Visual Studio, Eclipse, Java, C, Python]</p></div>
+        </div>
+        <div class="iot_all_wrap">
+            <div class="iot_title_wrap"><p><strong>데이터베이스</strong></p></div>
+            <div class="iot_text_wrap"><p>목표:데이터에 대한 요구사항으로부터 데이터베이스를 설계 및 구축</p></div>
+            <div class="iot_text_wrap"><p>교과:데이터베이스구현, SQL 활용 [ORACLE, MY-SQL]</p></div>
+        </div>
+        <div class="iot_all_wrap">
+            <div class="iot_title_wrap"><p><strong>스마트 웹/앱</strong></p></div>
+            <div class="iot_text_wrap"><p>목표: 스마트 기기에 적합한 문화 콘텐츠를 발굴하여 웹/앱을 기획 및 제작</p></div>
+            <div class="iot_text_wrap"><p>교과: UI 디자인, UI 구현, 웹프로그래밍, 앱프로그래밍</p></div>
+            <div class="iot_text_wrap"><p>[HTML5, CSS3, JAVASCRIPT, PHP, JSP, Android, Photoshop, illustrator]</p></div>
+        </div>
+        <div class="iot_all_wrap">
+            <div class="iot_title_wrap"><p><strong>네트워크</strong></p></div>
+            <div class="iot_text_wrap"><p>목표:네트워크에 대한 환경을 분석하고 프로토콜, 트폴로지, 자원관리, QoS를 설계</p></div>
+            <div class="iot_text_wrap"><p>교과:네트워크프로그래밍구현 [cisco packet tracer]</p></div>
+        </div>
+        <div class="iot_all_wrap">
+            <div class="iot_title_wrap"><p><strong>취득자격증</strong></p></div>
+            <div class="iot_text_wrap"><p>웹디자인기능사, 정보처리기능사, 네트워크관리사, 정보기기운용기능사,<br>RFID-GL, MOS, OCJP, CCNA</p></div>
+        </div>
+        <div class="iot_btn_wrap">
+            <img src="./img/btn/main.png" name="iot" alt="index" onclick="move(name, alt)">
+            <img src="./img/btn/mod_btn.png" name="iot" alt="mod" onclick="move(name, alt)">
+            <img src="./img/btn/root_btn.png" name="iot" alt="root" onclick="move(name, alt)">
+        </div>
+    </div>
+</div>
+<div id="ss_wrap">
+    <header>
+        <div class="back_wrap">
+            <img src="img/btn/space_btn.png" name="ss" alt="space" id="ss_back_img" onclick="move(name, alt)">
+            <p id="ss_back_text">뒤로가기</p>
+        </div>
+    </header>
+    <section>
+        <div class="logo_wrap"><img src="./img/club/ss/ss.png" alt="logo" class="logo"></div>
+        <div id="ss_intro">
+            <p class="text_ss">스마트 스페이스는 공간정보 동아리입니다.</p>
+            <p class="text_ss">신입생 동아리 가입 시 2학년이 자바를 교육합니다.</p>
+            <p class="text_ss">자바 교육이 끝나면 웹, 앱 등으로 파트를 나누어</p>
+            <p class="text_ss">2학년과 1학년이 팀을 구성해 프로젝트를 진행합니다.</p>
+            <p class="text_ss">실력을 쌓아 최종적으론 공간정보 융복합 웹, 앱을 만듭니다.</p>
+        </div>
+        <div class="portfolio"><p>[ PORTFOLIO ]</p></div>
+        <div id="ss_pf_wrap">
+            <div id="check" class="pf">
+                <a href="http://ss2017.dothome.co.kr/"><img src="./img/club/ss/attendance.png" alt="pf1"></a>
+                <p>스마트 스페이스 출석체크</p>
+            </div>
+            <div id="map" class="pf">
+                <a href="./result.html"><img src="./img/club/ss/python.png" alt="pf2"></a>
+                <p>파이썬 데이터 시각화</p>
+            </div>
+            <div id="bus" class="pf">
+                <a href="http://smartbus.dothome.co.kr/"><img src="./img/club/ss/bus_stop.png" alt="pf3"></a>
+                <p>버스 정류장 조회</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <img src="./img/footer.png" alt="footer" class="footer">
+    </footer>
+</div>
+<div id="mod_wrap">
+    <header>
+        <div class="back_wrap">
+            <img src="img/btn/iot_btn.png" name="mod" alt="iot" id="mod_back_img" onclick="move(name, alt)">
+            <p id="mod_back_text">뒤로가기</p>
+        </div>
+    </header>
+    <section>
+        <div class="logo_wrap"><img src="img/club/mod/mod.png" alt="logo" class="logo"></div>
+        <div id="mod_intro">
+            <p class="mod_text">모드는 웹 디자인 및 개발동아리</p>
+            <p class="mod_text">HTML5, CSS3, JS, PHP 등 학습</p>
+            <p class="mod_text">웹디자인기능반과 연계해서 운영</p>
+        </div>
+        <div class="portfolio"><p>[ PORTFOLIO ]</p></div>
+        <div id="mod_pf_wrap">
+            <div id="mod_rain" class="pf"><a href="http://rain.kingcjy.xyz/"><img src="./img/club/mod/rain.png"
+                                                                                  alt="rain"></a></div>
+            <div id="mod_sort" class="pf"><a href="http://selectsort.kingcjy.xyz/"><img src="./img/club/mod/sort.png"
+                                                                                        alt="sort"></a></div>
+            <div id="mod_bg" class="pf"><a href="http://layer.kingcjy.xyz/"><img src="./img/club/mod/bg.png"
+                                                                                 alt="bg"></a></div>
+        </div>
+    </section>
+    <footer>
+        <img src="./img/footer.png" alt="footer" class="footer">
+    </footer>
+</div>
+<div id="root_wrap">
+    <header>
+        <div class="back_wrap">
+            <img src="./img/btn/iot_btn.png" name="root" alt="iot" id="root_back_img" onclick="move(name, alt)">
+            <p id="root_back_text">뒤로가기</p>
+        </div>
+    </header>
+    <section>
+        <div class="logo_wrap"><img src="./img/club/root/root.png" alt="logo" class="logo"></div>
+        <div id="video_wrap">
+            <div class="hack_wrap">
+                <iframe src="https://www.youtube.com/embed/g6z-YS2DxMY" allowfullscreen class="root_video"></iframe>
+            </div>
+            <div class="hack_wrap">
+                <iframe src="https://www.youtube.com/embed/A23OhD61pgA" allowfullscreen class="root_video"></iframe>
+            </div>
+            <div class="hack_wrap">
+                <iframe src="https://www.youtube.com/embed/bve7cNVigK4" allowfullscreen class="root_video"></iframe>
+            </div>
+        </div>
+        <div id="kakao_wrap">
+            <div class="kakao"><a href="https://pf.kakao.com/_HTsMxl"><img src="./img/club/root/kakao_1.png" alt="pf1"></a></div>
+            <div class="kakao"><a href="https://pf.kakao.com/_PxjQku"><img src="./img/club/root/kakao_2.png" alt="pf2"></a></div>
+            <div class="kakao"><a href="https://pf.kakao.com/_aqhyu"><img src="./img/club/root/kakao_3.png" alt="pf3"></a></div>
+        </div>
+    </section>
+    <footer>
+        <img src="./img/footer.png" alt="footer" class="footer">
+    </footer>
+</div>
+<script src="./js/dept.js"></script>
+<script src="./js/move.js"></script>
 </body>
 </html>

@@ -1,6 +1,9 @@
 *{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;}
 html, body{width: 100%; font-size: 100%; background-color: #eeeeee;}
 
+body > div{display: none;}
+#index_wrap{display: block;}
+
 /*header*/
 #index_wrap header{width: 75%; margin-top:1%; margin-left: auto; margin-right: auto;}
 #index_wrap #logo{width: 20%; display: block; margin: 0 auto;}
@@ -10,7 +13,7 @@ html, body{width: 100%; font-size: 100%; background-color: #eeeeee;}
 #index_wrap #header_text{color: #0080ca; font-size: 1.5rem; text-align: center;}
 #index_wrap #btn_wrap{width: 75%; margin-top: 1%; margin-left: auto; margin-right: auto;}
 #index_wrap #btn_wrap > div{width: 25%; float: left; text-align: center}
-#index_wrap #btn_wrap > div > a > img{width: 50%;}
+#index_wrap #btn_wrap > div img{width: 50%; cursor: pointer;}
 #index_wrap #btn_wrap > div > p{font-size: 1.25rem}
 #index_wrap #game_text{color: #ee155a;}
 #index_wrap #vr_text{color: #9c258d;}
