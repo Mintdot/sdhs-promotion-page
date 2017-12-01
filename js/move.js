@@ -1,15 +1,15 @@
-function move(name, alt) {
-    prevNone(name);
+function move(title, alt) {
+    prevNone(title);
     nextDisplay(alt);
 
 }
 
-function prevNone(name) {
-    var prevName;
+function prevNone(title) {
+    var prevTitle;
     var prev;
 
-    prevName = name + "_wrap";
-    prev = document.getElementById(prevName);
+    prevTitle = title + "_wrap";
+    prev = document.getElementById(prevTitle);
     prev.style.display = "none";
 
 
