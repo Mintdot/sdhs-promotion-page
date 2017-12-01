@@ -1,7 +1,6 @@
 function move(title, alt) {
     prevNone(title);
     nextDisplay(alt);
-
 }
 
 function prevNone(title) {
@@ -11,8 +10,6 @@ function prevNone(title) {
     prevTitle = title + "_wrap";
     prev = document.getElementById(prevTitle);
     prev.style.display = "none";
-
-
 }
 
 function nextDisplay(alt) {
@@ -26,5 +23,4 @@ function nextDisplay(alt) {
     if(alt == "game" || alt == "vr" || alt == "space" || alt == "iot") {
         setHeight();
     }
-
 }
