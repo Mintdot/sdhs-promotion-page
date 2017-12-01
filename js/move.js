@@ -23,7 +23,7 @@ function nextDisplay(alt) {
     next = document.getElementById(nextAlt);
     next.style.display = "block";
 
-    if(alt == "game", "vr", "space", "iot") {
+    if(alt == "game" || alt == "vr" || alt == "space" || alt == "iot") {
         setHeight();
     }
 
