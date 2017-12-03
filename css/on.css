@@ -32,16 +32,16 @@
 #on_wrap .logo{width: 15%; display: block; margin: 0 auto;}
 #on_wrap #on_intro{text-align: center; color: #3c6dc2; font-size: 1.25rem; line-height: 175%; margin-top: 1%;}
 
-#on_wrap #on_pf_wrap{width: 1000px; height:300px;margin-top: 1%; margin: 0 auto;}
-#on_wrap .pf_wrap, .pf2_wrap{height:100px; position: relative;}
-#on_wrap .pf_wrap{width:calc(50% - 40px); height:300px; float: left; position: relative; overflow: hidden; margin:0 20px;}
-#on_wrap .pf2_wrap{width:calc(50% - 40px); height:300px; float: right; position: relative; overflow: hidden; margin:0 20px;}
-#on_wrap .imgs, .imgs2{ width:100%; height:300px; left:0; position: absolute; animation-duration: 1s; animation-fill-mode: forwards;}
+#on_wrap #on_pf_wrap{width: 75%; height: 300px; margin-top: 1%; margin-left: auto; margin-right: auto;}
+#on_wrap .pf_wrap, #on_wrap .pf2_wrap{height: 100px; position: relative;}
+#on_wrap .pf_wrap{width: calc(50% - 40px); height: 300px; float: left; position: relative; overflow: hidden; margin:0 20px;}
+#on_wrap .pf2_wrap{width: calc(50% - 40px); height: 300px; float: right; position: relative; overflow: hidden; margin:0 20px;}
+#on_wrap .imgs, #on_wrap .imgs2{ width: 100%; height: 300px; left:0; position: absolute; animation-duration: 1s; animation-fill-mode: forwards;}
 #on_wrap .imgs:nth-child(1){z-index: 998;}
 #on_wrap .imgs2:nth-child(1){z-index: 998;}
 #on_wrap .imgs:nth-child(2){z-index: 997;}
 #on_wrap .imgs2:nth-child(2){z-index: 997;}
 
 /*footer*/
-#on_wrap footer{width: 100%; margin-top: 1%; margin-top:100px; clear: both;}
+#on_wrap footer{width: 100%; margin-top: 1%; clear: both;}
 #on_wrap .footer{display:block; margin: 0 auto;}
