@@ -24,3 +24,8 @@ body > div{display: none;}
 /*footer*/
 #index_wrap footer{width: 100%; margin-top: 1%; margin-left: auto; margin-right: auto;}
 #index_wrap .footer{display:block; margin: 0 auto;}
+
+@keyframes opacity {
+    from{opacity: 0;}
+    to{opacity: 1}
+}

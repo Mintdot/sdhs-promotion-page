@@ -18,6 +18,8 @@ function nextDisplay(alt) {
 
     nextAlt = alt + "_wrap";
     next = document.getElementById(nextAlt);
+    next.style.animationName = "opacity";
+    next.style.animationDuration = "1s";
     next.style.display = "block";
 
     if(alt == "game" || alt == "vr" || alt == "space" || alt == "iot") {
